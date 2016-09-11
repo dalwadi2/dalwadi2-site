@@ -1,17 +1,7 @@
 /*
 --------------------------------------------------------
 
-[ INSTA , Javscript ]
-
-  Template Name : INSTA - Responsive Onepage Resume Template
-  
-  Version       :  1.0 
-  
-  Author        :  Pixel_Factory
-  
-  Author URI    :  http://themeforest.net/user/Pixel_Factory
-  
-  Author Email  : h.nafees.anwar@gmail.com
+[ Javscript ]
 
 --------------------------------------------------------
 */

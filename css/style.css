@@ -1,21 +1,9 @@
 /*
 --------------------------------------------------------* 
 
-[INSTA, Main Stylesheet ]
+[Main Stylesheet ]
 
-    Color        : RED ( #366bdc )
-
-    Name         : INSTA - Responsive Onepage Resume Template
-
-    Version      :  1.0 
-
-    Author       :  Pixel_Factory
-
-    Author URI   :  http://themeforest.net/user/Pixel_Factory
-
-    Author Email : h.nafees.anwar@gmail.com
-
-
+   
 --------------------------------------------------------
 
 --------------------------------------------------------
@@ -70,8 +58,8 @@
                        1 ) Font Import From Google Fonts
                       -----------------------------------*/
 
-@import url(http://fonts.googleapis.com/css?family=Hind:300,500);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic);
+@import url(//fonts.googleapis.com/css?family=Hind:300,500);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,400italic);
 
                     /*----------------------
                        2 ) Preloader Styles
