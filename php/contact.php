@@ -3,9 +3,10 @@
 	
 
 	// sender information
-	$name = trim($_POST['name']);
-	$email = trim($_POST['email']);
-	$message = trim($_POST['message']);
+	echo $name = trim($_POST['name']);
+	echo $email = trim($_POST['email']);
+	echo $message = trim($_POST['message']);
+	exit;
 	$error = "";
 	
 	// check sender information
@@ -25,7 +26,11 @@
 
     // email header
 
-	$headers = "From: ".$name." <".$email.">\r\nReply-To: ".$email."";
+	$headers = "From: $email\r\n";
+	$headers .= "Reply-To: $email\r\n";
+	$headers .= "Return-Path: myplace@example.com\r\n";
+
+
 
 	if (!$error){
 		
