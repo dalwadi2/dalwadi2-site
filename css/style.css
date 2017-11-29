@@ -1051,7 +1051,7 @@ ul.custom {
     text-align: center;
 }
 
-.popup_content a {
+/*.popup_content a {
     border: 1px solid #366bdc;
     color: #366bdc;
     display: block;
@@ -1068,6 +1068,26 @@ ul.custom {
 }
 
 .popup_content a:hover {
+    background: #366bdc;
+    color: #fff;
+}*/
+.popup_content_link {
+    border: 1px solid #366bdc;
+    color: #366bdc;
+    display: block;
+    width: 150px;
+    margin: 30px auto;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.popup_content_link:hover {
     background: #366bdc;
     color: #fff;
 }
