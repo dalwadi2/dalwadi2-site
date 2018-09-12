@@ -359,9 +359,13 @@ body {
     color: #366bdc;
 }
 
+.intro-image {
+    margin-left: 16%;
+}
+
 .intro-content h2 {
     color: #fff;
-    text-decoration: underline;
+    text-decoration: italic;
     text-align: center;
     font-weight: 300;
     font-size: 30px;

@@ -8,7 +8,11 @@
 */
 
 @media only screen and (max-width: 992px) {
-    
+
+    .intro-image {
+        margin-left: 0px;
+    }
+
     h1 {
         font-size: 45px;
     }
@@ -41,7 +45,11 @@
 }
 
 @media only screen and (max-width: 768px) {
-    
+
+    .intro-image {
+        margin-left: 0px;
+    }
+
     h1 {
         font-size: 36px;
     }
@@ -90,7 +98,12 @@
 }
 
 @media only screen and (max-width: 480px) {
-    
+
+
+    .intro-image {
+        margin-left: 16%;
+    }
+
     .intro-content h1 {
         font-size: 30px;
     }
