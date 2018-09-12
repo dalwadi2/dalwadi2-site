@@ -127,7 +127,21 @@ $(document).ready(function () {
         }, 1000, 'easeOutQuart');
         $('.profile-page, .resume-page, .portfolio-page, .contact-page').fadeOut(800);
     });
-    
+
+    document.onkeydown = function(evt) {
+        evt = evt || window.event;
+        var isEscape = false;
+        if ("key" in evt) {
+            isEscape = (evt.key == "Escape" || evt.key == "Esc");
+        } else {
+            isEscape = (evt.keyCode == 27);
+        }
+        if (isEscape) {
+            $('.popup_close').click();
+            $('.close-btn').click();
+        }
+    };
+
     /*  --------------------------------
          Maximize Services Items Height
         --------------------------------  */
